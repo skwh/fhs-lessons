@@ -1,6 +1,11 @@
 1. Write a program that allows the user to input a string and a number, and then prints the string that number of times.
    Example: User inputs the string "hi" and the number 15. The program prints the word hi 15 times.
-   Answer: (Include your program here)
+   Answer:
+   function printString(string, number) {
+       for (var i=0;i=number;i++) {
+           console.log(string);
+       }
+   }
 
 
 2. Sum the first 100 even numbers starting with 2.
@@ -10,7 +15,7 @@
 3. Write a program to compute the remainder of a quotient.
    Example: The remainder of 12/5 is 2.
    Answer: (Include your program here)
-
+   function getRemainder(arg0,arg1) { console.log(arg0 % arg1); }
 
 4. Write a program to display a fibonacci sequence and use it to find the 253rd term.
    Answer:
@@ -24,6 +29,6 @@
     }
   }
   
-  Answer:
+  Answer: 54 times
 
 
